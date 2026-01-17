@@ -59,6 +59,11 @@ table {
 	margin: 0 auto;
 }
 
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
 .header .bar{
 	background: #f6f6f6;
 	height: 30px;
