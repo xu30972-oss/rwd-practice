@@ -76,6 +76,13 @@ body {
 .bar ul a{
 	text-decoration: none;
 }
+
+
+.bar .facebook li:hover{
+	color:green;
+}
+
+
 .bar li img{
 	margin-right: 5px;
     float: left;
@@ -95,6 +102,16 @@ body {
 .twitter span{
 	color:#2fbae4
 }
+
+.facebook span:hover{
+	color:#677fb7;
+}
+
+.twitter span:hover{
+	color:#4fccf3
+}
+
+
 
 
 
@@ -137,6 +154,8 @@ body {
    border-bottom:4px solid #44dab4;
   padding-bottom: 12px;
 }
+
+
 
 
 @media(max-width:767px){
@@ -218,6 +237,7 @@ body {
 }
 
 .item ul li{
+	list-style-type: disc;
   text-align: left;
   margin-left: 16px;
   line-height: 120%;
